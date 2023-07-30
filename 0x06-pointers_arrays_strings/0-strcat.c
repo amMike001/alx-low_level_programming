@@ -1,13 +1,12 @@
 #include "main.h"
 #include <stdio.h>
-char *_strcat(char *dest, char *src);
-
 /**
- * main - check the code
- *
- * Return: Always 0.
+*main - check the code
+*description -Write a function that concatenates two strings.
+*Return: Always 0.
  */
 int main(void)
+char *_strcat(char *dest, char *src)
 {
 	int i,j;
 	for (i = 0 ;dest[i] ; i++ );
